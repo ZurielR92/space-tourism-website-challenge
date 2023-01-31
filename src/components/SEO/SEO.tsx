@@ -11,8 +11,10 @@ interface Props {
 export const SEO:FC<Props> = ({ title = 'Space Tourism', description }) => {
     return (
         <Head>
+            <link rel="shortcut icon" href="/favicon.png"/>
             <title>{ title }</title>
             <meta name="description" content={ description } />
+
         </Head>
     )
 
